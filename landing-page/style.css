@@ -1,8 +1,9 @@
 /* landing-page.html stylesheet */
 
-/* * {
-    border: 2px solid gray;
-} */
+* {
+    /* border: 2px solid black; */
+    margin: 0px;
+}
 
 .main-container {
     display: flex;
@@ -11,32 +12,57 @@
     font-family: "Open Sans", sans-serif;
 }
 
+/* Header Container */
+
 .header-container {
     display: flex;
     flex-direction: column;
     flex: 0;
+    box-sizing: border-box;
+    padding: 20px 300px 150px 300px;
+    gap: 100px;
 }
 
 .header-bar {
     display: flex;
     flex-direction: row;
     flex: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .bottom-header {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
 }
 
 .left-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1;
 }
 
-.right-container {
+.left-content {
     flex: 1;
+}
+
+.divider {
+    flex: 0.1;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    background-color: #7d848b;
 }
 
 .dark {
@@ -58,8 +84,62 @@
     font-weight: bold;
 }
 
-.main-text{
+.main-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
+}
+
+.image-content {
+    text-align: center;
+}
+
+.button {
+    background-color: #3882F6;
+    padding: 5px 15px 5px 15px;
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Information Container */
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 375px 50px 375px;
+}
+
+.information-header {
+    flex: 1;
+}
+
+.information-images {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0 0 0;
+    flex: 1;
+}
+
+.image-box-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+.caption {
+    text-align: center;
+    margin: 5px;
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
