@@ -1,0 +1,65 @@
+/* landing-page.html stylesheet */
+
+/* * {
+    border: 2px solid gray;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    flex: 0;
+}
+
+.bottom-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.dark {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.lower-contrast {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
