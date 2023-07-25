@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    
 
 </head>
 <body>
     <div class="main-container">
+<!--HTML for Header Container  -->
         <div class="header-container dark">
             <div class="header-bar">
                 <div class="logo">
-                    <h2 class="header-logo">Header Logo</h2>
+                    <h2 class="header-logo">sleepy co</h2>
+                    <img class="sloth-gif" src="../images/SleepyCo.gif" alt="Animated pixel sloth sleeping">
                 </div>
                 <div class="header-link">
-                    <p class="lower-contrast">header link one</p>
-                    <p class="lower-contrast">header link two</p>
-                    <p class="lower-contrast">header link three</p>
+                    <p class="lower-contrast">Custom Art</p>
+                    <p class="lower-contrast">Creator Merch</p>
+                    <p class="lower-contrast">Contact</p>
                 </div>
             </div>
             <div class="bottom-header">
@@ -33,11 +37,11 @@
                     <div class="divider"></div>
                 </div>
                 <div class="right-container">
-                    <p class="lower-contrast image-content">this is a placeholder for an image</p>
+                    <img class="header-image" src="../images/HeaderImage.gif" alt="Girl playing ukulele in her room">
                 </div>
             </div>
         </div>
-
+<!-- HTML for Information Container -->
         <div class="information-container">
             <div class="information-header">
                 <h2>Previous Twitch Commissions</h2>
@@ -79,17 +83,28 @@
                 <div class="divider"></div>
             </div>
         </div>
+<!-- HTML for Quote Container -->
         <div class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p>-Thor, God of Thunder</p>
+            <div class="quote-container-1">
+                <p class="quote-item"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></p>
+            </div>
+            <div class="quote-container-2">
+                <p class="quote-item-signed">-Thor, God of Thunder</p>
+            </div>
         </div>
+<!-- HTML for Call-To-Action Container -->
         <div class="call-to-action">
-            <h2>Call to action! It's time!</h2>
+            <div class="call-to-action-left">
+            <h2 id="action-bold">Call to action! It's time!</h2>
             <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="call-to-action-right">
             <p>Sign up</p>
+            </div>
         </div>
+<!-- HTML for Copyright Container --> 
         <div class="footer dark">
-            <p>Copyright <span>&copy;</span> The Odin Project 2021</p>
+            <p class="lower-contrast">Copyright <span>&copy;</span> The Odin Project 2021</p>
         </div>
     </div>
 </body>

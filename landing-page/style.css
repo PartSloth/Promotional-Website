@@ -49,6 +49,13 @@
     flex: 1;
 }
 
+.logo {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+
 .left-content {
     flex: 1;
 }
@@ -62,7 +69,6 @@
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    background-color: #7d848b;
 }
 
 .dark {
@@ -82,16 +88,20 @@
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    font-family: Borel, sans-serif;
+    margin: 10px 0px 0px 0px;
 }
+
+.sloth-gif {
+    height: 100%;
+    max-height: 40px;
+}
+
 
 .main-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-}
-
-.image-content {
-    text-align: center;
 }
 
 .button {
@@ -102,6 +112,12 @@
     border-radius: 7px;
     text-align: center;
     font-weight: bold;
+}
+
+.header-image {
+    max-width: 700px;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Information Container */
@@ -142,4 +158,89 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+}
+
+/* Quote Container */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 100px 400px 100px 400px;
+}
+
+.quote-container-1 {
+    flex: 1;
+}
+
+.quote-container-2 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.quote-item {
+    font-size: 36px;
+    text-align: center;
+}
+
+.quote-item-signed {
+    font-weight: bold;
+}
+
+/* Call-To-Action */
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 300px 100px 300px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 75px 125px 75px 125px;
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1.25;
+}
+
+.call-to-action-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.call-to-action-right p {
+    padding: 10px 55px 10px 55px;
+    margin-left: 75px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #E5E7EB;
+    border-radius: 7px;
+}
+
+.call-to-action-left p {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+#action-bold {
+    font-weight: bold;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+/* Copyright Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    padding: 50px 0px 50px 0px;
 }
